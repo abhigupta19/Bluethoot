@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         b1=(Button)findViewById(R.id.button);
         b2=(Button)findViewById(R.id.button2);
+
         b3=(Button)findViewById(R.id.button3);
         if(b.isEnabled())
         {
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                 }
             });
-
+//2358
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
